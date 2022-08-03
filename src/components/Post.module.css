@@ -104,6 +104,11 @@
 	visibility: hidden;
 }
 
+.commentForm:focus-within footer {
+	max-height: none;
+	visibility: visible;
+}
+
 .commentForm button[type='submit'] {
 	cursor: pointer;
 	font-weight: bold;
@@ -121,4 +126,8 @@
 
 .commentForm button[type='submit']:hover {
 	background: var(--green-300);
+}
+
+.commentList {
+	margin-top: 2rem;
 }
